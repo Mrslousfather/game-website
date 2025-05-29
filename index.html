@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>游戏名称 - 官方网站</title>
+    <title>中世纪冒险：埃尔登法环 - 官方网站</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="home" style="height:70px;margin-top:-70px;"></div>
     <header>
         <nav>
-            <div class="logo">游戏名称</div>
+            <div class="logo">中世纪冒险：埃尔登法环</div>
             <ul class="nav-links">
                 <li><a href="#home">首页</a></li>
                 <li><a href="#features">特色</a></li>
                 <li><a href="#gallery">画廊</a></li>
-                <li><a href="#news">新闻</a></li>
-                <li><a href="#contact">联系我们</a></li>
+                <li><a href="#team">团队介绍</a></li>
             </ul>
+            <select id="lang-switch" style="margin-left:2rem;padding:0.3rem 1rem;border-radius:6px;font-size:1rem;outline:none;">
+                <option value="zh" selected>中文</option>
+                <option value="en">English</option>
+                <option value="jp">日本語</option>
+            </select>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <div class="hero-content">
-                <h1>游戏名称</h1>
-                <p>一段引人入胜的游戏简介，描述游戏的核心玩法和特色。</p>
+        <section id="hero" style="position:relative;overflow:hidden;">
+            <video autoplay muted loop playsinline style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+                <source src="hero-bg.mp4" type="video/mp4">
+                您的浏览器不支持视频播放。
+            </video>
+            <div class="hero-video-fade" style="position:absolute;left:0;bottom:0;width:100%;height:120px;z-index:1;pointer-events:none;"></div>
+            <div class="hero-content" style="position:relative;z-index:2;">
+                <h1>中世纪冒险：埃尔登法环</h1>
+                <p style="font-weight:bold;font-size:1.3rem;text-shadow:2px 2px 8px #000,0 0 12px #c9a14a;">踏入中世纪奇幻世界，化身勇者，探索神秘魔域，挑战强大魔物，书写属于你的冒险传奇！</p>
                 <div class="cta-buttons">
-                    <a href="#" class="btn primary">立即购买</a>
-                    <a href="#" class="btn secondary">观看预告片</a>
+                    <a href="#" class="btn primary">立即加入冒险</a>
+                    <a href="#" class="btn secondary">观看史诗预告</a>
                 </div>
             </div>
         </section>
@@ -36,40 +46,66 @@
             <h2>游戏特色</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <h3>特色一</h3>
-                    <p>特色描述内容</p>
+                    <h3>中世纪搜打撤冒险</h3>
+                    <p>体验硬核搜刮、战斗与撤离，感受中世纪世界的高风险高回报冒险乐趣。</p>
                 </div>
                 <div class="feature-card">
-                    <h3>特色二</h3>
-                    <p>特色描述内容</p>
+                    <h3>独特的游戏机制</h3>
+                    <p>融合搜刮、战斗、撤离与阵营博弈，带来紧张刺激且策略丰富的中世纪冒险体验。</p>
                 </div>
                 <div class="feature-card">
-                    <h3>特色三</h3>
-                    <p>特色描述内容</p>
+                    <h3>史诗级Boss战</h3>
+                    <p>与巨龙、恶魔等强大魔物激战，挑战极限，赢取稀有装备与荣耀。</p>
                 </div>
             </div>
         </section>
 
         <section id="gallery">
-            <h2>游戏画廊</h2>
+            <h2>冒险画廊</h2>
             <div class="gallery-grid">
-                <!-- 图片将通过CSS背景图片方式添加 -->
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
-                <div class="gallery-item"></div>
+                <div class="gallery-item" style="background:url('images/1.png') center/cover;"></div>
+                <div class="gallery-item" style="background:url('images/2.png') center/cover;"></div>
+                <div class="gallery-item" style="background:url('images/3.png') center/cover;"></div>
+                <div class="gallery-item" style="background:url('images/4.png') center/cover;"></div>
+                <div class="gallery-item" style="background:url('images/5.png') center/cover;"></div>
+                <div class="gallery-item" style="background:url('images/6.png') center/cover;"></div>
+                <div class="gallery-item" style="background:url('images/7.png') center/cover;"></div>
+                <div class="gallery-item" style="background:url('images/8.png') center/cover;"></div>
             </div>
         </section>
 
-        <section id="news">
-            <h2>最新动态</h2>
-            <div class="news-grid">
-                <article class="news-card">
-                    <h3>新闻标题</h3>
-                    <p>新闻内容描述...</p>
-                    <a href="#" class="read-more">阅读更多</a>
-                </article>
-                <!-- 更多新闻卡片 -->
+        <section id="team">
+            <h2>团队介绍</h2>
+            <div class="features-grid" style="max-width:1100px;margin:2rem auto;grid-template-columns:repeat(3,1fr);">
+                <div class="feature-card" style="text-align:center;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;">
+                    <img src="images/team-leader.jpg" alt="制作人/程序" style="width:90px;height:90px;border-radius:50%;object-fit:cover;margin-bottom:1rem;">
+                    <h3>制作人/程序：飞神</h3>
+                    <p>专注核心玩法与系统架构，热爱奇幻世界构建。</p>
+                </div>
+                <div class="feature-card" style="text-align:center;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;">
+                    <img src="images/team-dev2.jpg" alt="策划/程序" style="width:90px;height:90px;border-radius:50%;object-fit:cover;margin-bottom:1rem;">
+                    <h3>策划/程序：菊咕咕</h3>
+                    <p>负责关卡设计与玩法创新，兼顾部分系统开发。</p>
+                </div>
+                <div class="feature-card" style="text-align:center;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;">
+                    <img src="images/team-plan.jpg" alt="策划" style="width:90px;height:90px;border-radius:50%;object-fit:cover;margin-bottom:1rem;">
+                    <h3>策划：飞熊神</h3>
+                    <p>世界观与剧情设定，致力于打造沉浸式冒险体验。</p>
+                </div>
+            </div>
+            <div class="features-grid" style="max-width:1100px;margin:0 auto;grid-template-columns:repeat(4,1fr);margin-top:1.5rem;">
+                <div></div>
+                <div class="feature-card" style="text-align:center;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;">
+                    <img src="images/team-art1.jpg" alt="美术A同学" style="width:90px;height:90px;border-radius:50%;object-fit:cover;margin-bottom:1rem;">
+                    <h3>美术：A同学</h3>
+                    <p>角色与怪物设计，擅长中世纪奇幻风格插画。</p>
+                </div>
+                <div class="feature-card" style="text-align:center;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;">
+                    <img src="images/team-art2.jpg" alt="美术B同学" style="width:90px;height:90px;border-radius:50%;object-fit:cover;margin-bottom:1rem;">
+                    <h3>美术：B同学</h3>
+                    <p>场景与UI美术，负责整体美术风格统一与细节打磨。</p>
+                </div>
+                <div></div>
             </div>
         </section>
     </main>
@@ -79,19 +115,33 @@
             <div class="footer-section">
                 <h3>关注我们</h3>
                 <div class="social-links">
-                    <a href="#" class="social-link">微博</a>
-                    <a href="#" class="social-link">微信</a>
-                    <a href="#" class="social-link">B站</a>
+                    <a href="#" class="social-link">官方微博</a>
+                    <a href="#" class="social-link">官方微信</a>
+                    <a href="#" class="social-link">B站频道</a>
                 </div>
             </div>
             <div class="footer-section">
                 <h3>联系我们</h3>
-                <p>邮箱：contact@example.com</p>
+                <p>邮箱：adventure@fantasy.com</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 游戏名称. 保留所有权利。</p>
+            <p>&copy; 2025 中世纪冒险：埃尔登法环. 保留所有权利。</p>
         </div>
+        <div id="music-player-container" style="position:fixed;right:40px;bottom:40px;z-index:3001;display:flex;align-items:flex-end;gap:0;">
+            <div id="music-player">
+                <div class="music-controls">
+                    <button id="prevMusic">⏮️</button>
+                    <button id="playPauseMusic">▶️</button>
+                    <button id="nextMusic">⏭️</button>
+                </div>
+                <input type="range" id="music-progress" min="0" max="100" value="0">
+                <span id="musicTitle"></span>
+                <input type="range" id="music-volume" min="0" max="1" step="0.01" value="1">
+                <audio id="audioPlayer" src="" preload="auto"></audio>
+            </div>
+        </div>
+        <img id="kanban-girl" src="images/人物.png" alt="看板娘">
     </footer>
 
     <script src="script.js"></script>
