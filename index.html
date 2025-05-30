@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>奇幻冒险：爱转圈圈的祥飞和偷走时间的飞熊 - 官方网站</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <base href="./">
 </head>
 <body>
@@ -114,20 +115,30 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>关注我们</h3>
+                <h3 class="follow-us">关注我们</h3>
                 <div class="social-links">
-                    <a href="#" class="social-link">官方微博</a>
-                    <a href="#" class="social-link">官方微信</a>
-                    <a href="#" class="social-link">B站频道</a>
+                    <a href="https://twitter.com/fantasyadventure" target="_blank" class="social-link twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>推特</span>
+                    </a>
+                    <a href="https://discord.gg/fantasyadventure" target="_blank" class="social-link discord">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                    <a href="https://space.bilibili.com/fantasyadventure" target="_blank" class="social-link bilibili">
+                        <i class="fab fa-bilibili"></i>
+                        <span>B站</span>
+                    </a>
                 </div>
             </div>
             <div class="footer-section">
-                <h3>联系我们</h3>
-                <p>邮箱：adventure@fantasy.com</p>
+                <h3 class="contact-us">联系我们</h3>
+                <p class="email">邮箱：adventure@fantasy.com</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 中世纪冒险：埃尔登法环. 保留所有权利。</p>
+            <p class="copyright">© 2025 奇幻冒险：爱转圈圈的祥飞和偷走时间的飞熊. 保留所有权利。</p>
+            <p class="music-copyright">游戏内原生态音乐均由<a href="https://www.suno.ai" target="_blank" class="suno-link"><i class="fas fa-music"></i>Suno</a>生成.音乐版权保留所有权利</p>
         </div>
         <div id="music-player-container" style="position:fixed;right:40px;bottom:40px;z-index:3001;display:flex;align-items:flex-end;gap:0;">
             <div id="music-player">
@@ -143,6 +154,10 @@
             </div>
         </div>
         <img id="kanban-girl" src="./images/人物.png" alt="看板娘">
+        <div id="kanban-bubble" class="kanban-bubble" style="display: none;">
+            <div class="bubble-content">播放音乐，感受中世纪奇幻冒险的宏伟史诗篇章</div>
+            <div class="bubble-arrow"></div>
+        </div>
     </footer>
 
     <script src="./script.js"></script>
