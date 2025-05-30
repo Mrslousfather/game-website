@@ -225,6 +225,38 @@ nav {
     border: 1.5px solid #fffbe6;
 }
 
+.feature-card .social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    background: rgba(201,161,74,0.1);
+    border: 1px solid var(--secondary-color);
+}
+
+.feature-card .social-link:hover {
+    background: var(--secondary-color);
+    color: var(--dark-bg);
+    transform: translateY(-2px);
+}
+
+.feature-card .social-link i {
+    font-size: 1.2rem;
+}
+
+.feature-card .social-link.bilibili i {
+    color: #00A1D6;
+}
+
+.feature-card .social-link:hover i {
+    color: inherit;
+}
+
 /* 画廊样式 */
 #gallery {
     padding: 4rem 2rem;

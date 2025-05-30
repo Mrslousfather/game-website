@@ -235,9 +235,9 @@ const langData = {
         team: '团队介绍',
         featuresTitle: '游戏特色',
         teamDesc: [
-            '专注核心玩法与系统架构，热爱奇幻世界构建',
-            '负责关卡设计与玩法创新，兼顾部分系统开发',
-            '世界观与剧情设定，致力于打造沉浸式冒险体验',
+            '专注核心玩法与系统架构，热爱奇幻世界构建。负责游戏整体框架设计，打造独特的战斗与成长系统，让玩家体验前所未有的冒险乐趣',
+            '负责该网站设计搭建与游戏玩法创新，兼顾部分游戏系统开发。致力于打造流畅的游戏体验与创新的玩法机制',
+            '世界观与剧情设定，致力于打造沉浸式冒险体验。精心设计游戏剧情与任务系统，为玩家带来扣人心弦的史诗级冒险故事',
             '角色与怪物设计，擅长中世纪奇幻风格插画',
             '场景与UI美术，负责整体美术风格统一与细节打磨'
         ],
@@ -268,9 +268,9 @@ const langData = {
         team: 'Team',
         featuresTitle: 'Game Features',
         teamDesc: [
-            'Focuses on core gameplay and system architecture, passionate about fantasy world building',
-            'Responsible for level design and gameplay innovation, also handles system development',
-            'Worldview and story setting, dedicated to creating immersive adventure experiences',
+            'Focuses on core gameplay and system architecture, passionate about fantasy world building. Responsible for overall game framework design, creating unique combat and progression systems that deliver unprecedented adventure experiences',
+            'Responsible for website design and game mechanics innovation, also handles game system development. Dedicated to creating smooth gameplay experiences and innovative mechanics',
+            'Worldview and story setting, dedicated to creating immersive adventure experiences. Meticulously designs game narratives and quest systems, delivering epic adventure stories that captivate players',
             'Character and monster design, specializes in medieval fantasy style illustration',
             'Scene and UI art, responsible for overall art style consistency and detail refinement'
         ],
@@ -301,11 +301,11 @@ const langData = {
         team: 'チーム',
         featuresTitle: 'ゲームの特徴',
         teamDesc: [
-            'コアゲームプレイとシステム設計に注力し、ファンタジー世界構築を愛好',
-            'ステージデザインとゲームプレイ革新を担当し、システム開発も兼任',
-            '世界観とストーリー設定を担当し、没入感のある冒険体験を追求',
-            'キャラクターとモンスターデザインを担当し、中世ファンタジー風イラストを得意とする',
-            'シーンとUIアートを担当し、全体的な美術スタイルの統一と細部の磨き上げを担当'
+            'コアゲームプレイとシステムアーキテクチャに焦点を当て、ファンタジーワールド構築に情熱を注ぐ。ゲーム全体のフレームワーク設計を担当し、ユニークな戦闘と成長システムを構築し、プレイヤーに前例のない冒険体験を提供する',
+            'ウェブサイトデザインとゲームメカニクスの革新を担当し、ゲームシステム開発も手がける。スムーズなゲーム体験と革新的なメカニクスの創造に専念',
+            '世界観とストーリー設定を担当し、没入感のある冒険体験の創造に専念。ゲームの物語とクエストシステムを緻密に設計し、プレイヤーを魅了する壮大な冒険物語を提供する',
+            'キャラクターとモンスターのデザインを担当し、中世ファンタジー風のイラストを得意とする',
+            'シーンとUIアートを担当し、全体的なアートスタイルの一貫性と細部の洗練に責任を持つ'
         ],
         followUs: "フォローする",
         weibo: "微博",
