@@ -199,13 +199,20 @@ const langData = {
         nav: ['首页', '特色', '画廊', '团队介绍'],
         features: ['中世纪搜打撤冒险', '独特的游戏机制', '史诗级Boss战'],
         featuresDesc: [
-            '体验硬核搜刮、战斗与撤离，感受中世纪世界的高风险高回报冒险乐趣。',
-            '融合搜刮、战斗、撤离与阵营博弈，带来紧张刺激且策略丰富的中世纪冒险体验。',
-            '与巨龙、恶魔等强大魔物激战，挑战极限，赢取稀有装备与荣耀。'
+            '体验硬核搜刮、战斗与撤离，感受中世纪世界的高风险高回报冒险乐趣',
+            '融合搜刮、战斗、撤离与概率博弈的中世纪奇幻冒险，紧张刺激的同时不乏休闲',
+            '与巨龙、恶魔等强大魔物激战，挑战极限，赢取稀有装备与荣耀'
         ],
         gallery: '冒险画廊',
         team: '团队介绍',
         featuresTitle: '游戏特色',
+        teamDesc: [
+            '专注核心玩法与系统架构，热爱奇幻世界构建',
+            '负责关卡设计与玩法创新，兼顾部分系统开发',
+            '世界观与剧情设定，致力于打造沉浸式冒险体验',
+            '角色与怪物设计，擅长中世纪奇幻风格插画',
+            '场景与UI美术，负责整体美术风格统一与细节打磨'
+        ]
     },
     en: {
         title: 'Medieval Adventure: Elden Ring',
@@ -215,13 +222,20 @@ const langData = {
         nav: ['Home', 'Features', 'Gallery', 'Team'],
         features: ['Medieval Raid & Escape', 'Unique Game Mechanics', 'Epic Boss Battles'],
         featuresDesc: [
-            'Experience hardcore looting, combat, and extraction for high-risk, high-reward medieval fun.',
-            'Blending looting, combat, extraction, and faction strategy for a tense and strategic adventure.',
-            'Battle dragons, demons, and mighty monsters for rare loot and glory.'
+            'Experience hardcore looting, combat, and extraction for high-risk, high-reward medieval fun',
+            'A medieval fantasy adventure blending looting, combat, extraction, and probability-based gameplay, offering both intense excitement and casual enjoyment',
+            'Battle dragons, demons, and mighty monsters for rare loot and glory'
         ],
         gallery: 'Gallery',
         team: 'Team',
         featuresTitle: 'Game Features',
+        teamDesc: [
+            'Focuses on core gameplay and system architecture, passionate about fantasy world building',
+            'Responsible for level design and gameplay innovation, also handles system development',
+            'Worldview and story setting, dedicated to creating immersive adventure experiences',
+            'Character and monster design, specializes in medieval fantasy style illustration',
+            'Scene and UI art, responsible for overall art style consistency and detail refinement'
+        ]
     },
     jp: {
         title: '中世アドベンチャー：エルデンリング',
@@ -231,13 +245,20 @@ const langData = {
         nav: ['ホーム', '特徴', 'ギャラリー', 'チーム'],
         features: ['中世レイド＆脱出', '独自のゲームメカニクス', '壮大なボス戦'],
         featuresDesc: [
-            'ハードコアな略奪、戦闘、脱出を体験し、中世世界のハイリスク・ハイリターンな冒険を楽しもう。',
-            '略奪、戦闘、脱出、陣営戦略を融合し、緊張感と戦略性に富んだ冒険を実現。',
-            'ドラゴンや悪魔などの強大な魔物と戦い、レア装備と栄光を手に入れよう。'
+            'ハードコアな略奪、戦闘、脱出を体験し、中世世界のハイリスク・ハイリターンな冒険を楽しもう',
+            '略奪、戦闘、脱出と確率要素を融合した中世ファンタジー冒険。緊張感とリラックス感の両立を実現',
+            'ドラゴンや悪魔などの強大な魔物と戦い、レア装備と栄光を手に入れよう'
         ],
         gallery: 'ギャラリー',
         team: 'チーム',
         featuresTitle: 'ゲームの特徴',
+        teamDesc: [
+            'コアゲームプレイとシステム設計に注力し、ファンタジー世界構築を愛好',
+            'ステージデザインとゲームプレイ革新を担当し、システム開発も兼任',
+            '世界観とストーリー設定を担当し、没入感のある冒険体験を追求',
+            'キャラクターとモンスターデザインを担当し、中世ファンタジー風イラストを得意とする',
+            'シーンとUIアートを担当し、全体的な美術スタイルの統一と細部の磨き上げを担当'
+        ]
     }
 };
 
