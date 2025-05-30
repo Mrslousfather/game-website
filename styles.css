@@ -111,7 +111,7 @@ nav {
 .cta-buttons .btn {
     background: var(--secondary-color);
     color: var(--dark-bg);
-    border: none;
+    border: 1px solid var(--dark-bg);
     font-family: 'Georgia', serif;
     font-weight: bold;
     font-size: 1.1rem;
@@ -119,13 +119,14 @@ nav {
     margin: 0 0.5rem;
     padding: 1rem 2rem;
     box-shadow: 0 2px 8px rgba(75,46,5,0.12);
-    transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.3s;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.3s, border-color 0.2s;
     text-decoration: none;
     display: inline-block;
 }
 .cta-buttons .btn:hover {
     background: #fffbe6;
     color: var(--primary-color);
+    border-color: var(--primary-color);
     box-shadow: 0 4px 16px rgba(201,161,74,0.18);
     transform: translateY(-3px);
 }
