@@ -291,6 +291,11 @@ function setLang(lang) {
     document.querySelector('#team h2').textContent = langData[lang].team;
     // 游戏特色标题
     document.querySelector('#features h2').textContent = langData[lang].featuresTitle || langData[lang].features[0];
+    // 团队介绍描述
+    const teamDescs = document.querySelectorAll('#team .feature-card p');
+    langData[lang].teamDesc.forEach((txt, i) => {
+        if(teamDescs[i]) teamDescs[i].textContent = txt;
+    });
 }
 
 document.getElementById('lang-switch').addEventListener('change', function() {
