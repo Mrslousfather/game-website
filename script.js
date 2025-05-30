@@ -192,7 +192,7 @@ audioPlayer.volume = 1;
 // 多语言切换功能
 const langData = {
     zh: {
-        title: '中世纪冒险：埃尔登法环',
+        title: '奇幻冒险：爱转圈圈的祥飞和偷走时间的飞熊',
         subtitle: '踏入中世纪奇幻世界，化身勇者，探索神秘魔域，挑战强大魔物，书写属于你的冒险传奇！',
         btnJoin: '立即加入冒险',
         btnTrailer: '观看史诗预告',
@@ -215,7 +215,7 @@ const langData = {
         ]
     },
     en: {
-        title: 'Medieval Adventure: Elden Ring',
+        title: 'Fantasy Adventure: Xiangfei the Spinner and Feixiong the Time Thief',
         subtitle: 'Step into a medieval fantasy world, become a hero, explore mysterious realms, challenge mighty monsters, and write your own legendary adventure!',
         btnJoin: 'Join the Adventure',
         btnTrailer: 'Watch Epic Trailer',
@@ -238,7 +238,7 @@ const langData = {
         ]
     },
     jp: {
-        title: '中世アドベンチャー：エルデンリング',
+        title: 'ファンタジーアドベンチャー：回転好きの祥飛と時間泥棒の飛熊',
         subtitle: '中世のファンタジー世界に足を踏み入れ、勇者となり、神秘的な魔域を探索し、強大な魔物に挑み、自分だけの冒険伝説を刻もう！',
         btnJoin: '冒険に参加',
         btnTrailer: '壮大な予告編を見る',
