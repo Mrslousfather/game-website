@@ -221,7 +221,7 @@ audioPlayer.volume = 1;
 const langData = {
     zh: {
         title: '奇幻冒险：爱转圈圈的祥飞和偷走时间的飞熊',
-        subtitle: '踏入中世纪奇幻世界，化身勇者，探索神秘魔域，挑战强大魔物，书写属于你的冒险传奇！',
+        subtitle: '踏入中世纪奇幻世界，化身勇者，探索神秘魔域，挑战强大魔物，现已上架Steam，加入愿望单，书写属于你的冒险传奇！',
         btnJoin: '立即加入冒险',
         btnTrailer: '观看史诗预告',
         nav: ['首页', '特色', '画廊', '团队介绍'],
@@ -254,7 +254,7 @@ const langData = {
     },
     en: {
         title: 'Fantasy Adventure: Xiangfei the Spinner and Feixiong the Time Thief',
-        subtitle: 'Step into a medieval fantasy world, become a hero, explore mysterious realms, challenge mighty monsters, and write your own legendary adventure!',
+        subtitle: 'Step into a medieval fantasy world, become a hero, explore mysterious realms, challenge mighty monsters. Now available on Steam, add to wishlist and write your own legendary adventure!',
         btnJoin: 'Join the Adventure',
         btnTrailer: 'Watch Epic Trailer',
         nav: ['Home', 'Features', 'Gallery', 'Team'],
@@ -286,8 +286,8 @@ const langData = {
         discord: "Discord"
     },
     jp: {
-        title: '中世アドベンチャー：エルデンリング',
-        subtitle: '中世のファンタジー世界に足を踏み入れ、勇者となり、神秘的な魔域を探索し、強大な魔物に挑み、自分だけの冒険伝説を刻もう！',
+        title: 'ファンタジーアドベンチャー：回転好きの祥飛と時間泥棒の飛熊',
+        subtitle: '中世ファンタジーの世界に足を踏み入れ、勇者となり、神秘的な魔界を探索し、強大な魔物に挑戦しましょう。Steamで配信中、ウィッシュリストに追加して、あなただけの冒険伝説を書き綴りましょう！',
         btnJoin: '冒険の旅に参加する',
         btnTrailer: '壮大な予告編を見る',
         nav: ['ホーム', '特徴', 'ギャラリー', 'チーム'],
