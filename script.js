@@ -83,14 +83,6 @@ const musicList = [
         file: 'music/Triumphant Victory.mp3'
     },
     {
-        title: 'GameMusic1',
-        file: 'music/GameMusic1.mp3'
-    },
-    {
-        title: 'MenuMusic',
-        file: 'music/MenuMusic.mp3'
-    },
-    {
         title: 'The Battle Unfolds',
         file: 'music/The Battle Unfolds.mp3'
     },
