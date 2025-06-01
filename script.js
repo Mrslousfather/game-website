@@ -80,15 +80,15 @@ window.addEventListener('load', () => {
 const musicList = [
     {
         title: 'Triumphant Victory',
-        file: 'music/Triumphant Victory.mp3'
+        file: 'https://dndgame-website-1318706608.cos.ap-shanghai.myqcloud.com/music/Triumphant%20Victory.mp3'
     },
     {
         title: 'The Battle Unfolds',
-        file: 'music/The Battle Unfolds.mp3'
+        file: 'https://dndgame-website-1318706608.cos.ap-shanghai.myqcloud.com/music/The%20Battle%20Unfolds.mp3'
     },
     {
         title: 'The Rise of the Kingdom',
-        file: 'music/The Rise of the Kingdom.mp3'
+        file: 'https://dndgame-website-1318706608.cos.ap-shanghai.myqcloud.com/music/The%20Rise%20of%20the%20Kingdom.mp3'
     }
 ];
 
